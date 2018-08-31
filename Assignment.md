@@ -1,0 +1,50 @@
+## Overview
+
+Your goal is to complete a simple full-stack application. Most of the frontend is written already, and your task is to implement the search functionality, as well as connect the feed to a real backend.
+
+## Installation
+
+
+This assignment requires node >= 8.0.0 and npm >= 5.5
+
+```BASH
+cd frontend
+
+npm install
+```
+
+## Task
+
+#### Implement search
+
+At the top of the news feed there is a search field. Implement search that narrows the current list as you type
+
+Your search should check for a partial match on the "title", "url", and "user" fields
+
+#### Implement backend
+
+Using whatever programming language and database technology you prefer, implement a backend to store and serve up the news entries, and invoke your service from the frontend to populate the interface.
+
+Your backend should have two endpoints, one to get the news feed, and another to create an item. The create endpoint will not be called by the frontend, but will be useful for your own and for our testing.
+
+News entries should include at least a title, url, and user field.
+
+For ease of submission, please put your code inside the 'backend' directory of this repository
+
+#### Implement a unit test for search
+
+Write a unit test to verify that the search works correctly.
+
+## Development server
+
+Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically
+reload if you change any of the source files.
+
+## Build
+
+Run `npm run build` to build the project. The build artifacts will be stored in the `dist/`
+directory.
+
+## Running unit tests
+
+Run `npm test` to execute the unit tests via [Karma](https://karma-runner.github.io).

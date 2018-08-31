@@ -1,0 +1,8 @@
+@import 'vars';
+
+:host {
+  background: #fff;
+  box-shadow: $box_shadow;
+  display: block;
+  padding: $padding;
+}
